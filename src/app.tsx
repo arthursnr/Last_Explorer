@@ -1,3 +1,4 @@
+import { HomePage } from "./components/home";
 import { SignUp } from "./components/sign-up";
 
 export function App() {
