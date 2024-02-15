@@ -1,3 +1,4 @@
+import { HomePage } from "./components/home";
 import { SignUp } from "./components/sign-up";
 
 export function App() {
@@ -25,10 +26,7 @@ export function App() {
             <input type="password" name="senha" id="senha" placeholder="No mínimo 6 caracteres" className=" h-12 w-80 flex rounded-lg px-4 py-3 bg-slate-800" />
           </div>
 
-          <button className=" bg-red-900 h-12 px-8 py-3 rounded-md">
-            Entrar
-          </button>
-
+          <HomePage />
           <SignUp />
         </form>
       </div>
